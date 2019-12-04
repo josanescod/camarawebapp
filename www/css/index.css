@@ -1,0 +1,52 @@
+
+body {
+    background-color: lightblue;
+  }
+
+
+  
+#fotos {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+
+.foto{
+    width:45%;
+    margin:8px;
+
+}
+
+img{
+    max-width:100%;
+    vertical-align:top;
+    background-color:#4CAF50;
+}
+
+button{
+background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 27px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.icono_borrar{
+    width:40px;
+    position:absolute;
+    top:0;
+    right:0;
+    cursor:pointer;
+}
+
+.foto{
+    position:relative;
+}
+
+.titulo{
+    font-size:0.8em;
+    text-align:center;
+}
